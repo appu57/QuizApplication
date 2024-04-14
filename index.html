@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application in JS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="start__container">
+        <button class="start-button">Start Quiz</button>
+    </div>
+    <div class="guidelines-container">
+        <div class="info-title"> <h2>Rules of the Quiz</h2></div>
+        <div class="info-list">
+            <div class="info">1. You will have <span>10 seconds</span> per question </div>
+            <div class="info">2. Quiz consists of total <span>5 questions</span></div>
+            <div class="info">3  You can not select any option once time is completed</div>
+            <div class="info">4  You are not allowed to Quit the Quiz</div>
+            <div class="info">5  You will get rewards for each correct answers</div>
+        </div>
+        <div class="button-container">
+            <button class="quit"> Quit</button>
+            <button class="start"> Continue</button>
+        </div>
+    </div>
+    <div class="quiz-container">
+        <header>
+            <div class="title"> Quiz Application</div>
+            <div class="time">
+                <div class="time-left">Time left</div>
+                <div class="second">15</div>
+            </div>
+            <div class="time-progress-bar"></div>
+        </header>
+        <section>
+            <div class="question">
+
+            </div>
+            <div class="options">
+
+            </div>
+        </section>
+        <footer>
+            <div class="total-question"></div>
+            <button class="nextQuestio">Next Question</button>
+        </footer>
+    </div>
+    <div class="result-container">
+        <div class="content">
+
+        </div>
+        <button class="retry">
+           Retry Quiz
+        </button>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
